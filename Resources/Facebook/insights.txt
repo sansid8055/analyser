@@ -1,0 +1,5 @@
+.> 8% of the Positive reviews have ratings greater than 2
+.> 25% of the Neutral reviews have ratings greater than 2
+.> 0% of the Negative reviews have ratings greater than 2
+
+File location:- C:\Data\Project\Resources\Facebook

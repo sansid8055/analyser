@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+data/cache/
+data/ledger.db
+mcp-servers/saksham-mcp/.git/
