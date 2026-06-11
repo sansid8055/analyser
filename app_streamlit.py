@@ -1,7 +1,15 @@
 import streamlit as st
 import pandas as pd
 from google_play_scraper import reviews, Sort
-from app_store_scraper import AppStore
+import os
+import sys
+
+try:
+    from app_store_scraper import AppStore
+except ImportError:
+    os.system(f"{sys.executable} -m pip install app-store-scraper==0.3.5 --no-deps")
+    from app_store_scraper import AppStore
+
 from datetime import datetime, timedelta
 from openai import OpenAI
 import urllib.parse

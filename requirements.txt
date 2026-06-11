@@ -1,7 +1,6 @@
 streamlit>=1.50.0
 pandas
 google-play-scraper
-app-store-scraper==0.3.5
 openai
 pyyaml
 python-dotenv
