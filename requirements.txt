@@ -1,0 +1,11 @@
+streamlit
+pandas
+google-play-scraper
+app-store-scraper
+openai
+pyyaml
+python-dotenv
+requests
+umap-learn
+hdbscan
+scikit-learn
